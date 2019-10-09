@@ -1,0 +1,170 @@
+@import url("bootstrap.css");
+
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	padding-top: 20px;
+}
+
+.head-left {
+	float: left;
+	width: 500px;
+}
+
+.head-right {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#left-c {
+	min-height: 300px;
+}
+
+#right-c {
+	margin-top: 62px;
+}
+
+#right-c img {
+	padding-left: 10px;
+}
+
+.right-content {
+	background: #DF6E1E;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 30px;
+	border-top: 1px solid #CCC;
+	padding-bottom: 20px;
+}
+
+/* Toolbar */
+#toolbar {
+	background-color:  rgb(77, 58, 125);
+	color: rgb(225, 240, 240);
+	width:  100%;
+	height:  45px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#toolbar-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/* edycja front */
+.sk_edit {
+	position: relative;
+}
+
+.sk_edit_type {
+	display: block;
+	position: absolute;
+	top: -6px;
+	right: 10px;
+	padding: 4px 18px 5px;
+	z-index:  100;
+}
+
+.sk_edit_link {
+	border: 2px dotted orange;
+	position:  absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	overflow:  hidden;
+	text-indent: -9999px;
+}
+
+.sk_edit_link:hover {
+	background-color:  rgba(0,0,0,0.3);
+}
+
+/*forms */
+form ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+form ul li {
+	line-height: 22px;
+	font-size: 16px;
+}
+
+/* formularz edycji */
+.form-wrapper {
+	padding: 25px;
+}
+
+textarea.textarea, textarea.wysiwyg {
+	width: 800px;
+	height: 300px;
+}
+
+
+/* panel ustawien */
+.panel-wrapper {
+	padding: 0;
+	width: 100%;
+}
+
+/*.sk-panel-left, .sk-panel-right {
+	outline: 1px solid red;
+}*/
+
+
+
+.sk-panel-left {
+	float: left;
+	width: 30%;
+	
+}
+
+.sk-panel-right {
+	padding-left: 5%;
+	float: right;
+	width: 65%;
+	height: 475px;
+} 
+
+.b-close {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+.cancel {
+	margin-bottom: 20px;
+	float: right;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
